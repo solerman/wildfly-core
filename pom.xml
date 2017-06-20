@@ -31,7 +31,7 @@
 
     <groupId>org.wildfly.core</groupId>
     <artifactId>wildfly-core-parent</artifactId>
-    <version>2.2.2.Final-SNAPSHOT</version>
+    <version>2.2.2.Final-WONDER</version>
 
     <name>WildFly: Core Parent Aggregator</name>
     <description>WildFly: Core Parent Aggregator</description>
@@ -64,7 +64,7 @@
             For example: <version.surefire.plugin>2.11</version.surefire.plugin>
           -->
         <maven.min.version>3.2.1</maven.min.version>
-        <version.surefire.plugin>2.18.1</version.surefire.plugin>
+        <!--version.surefire.plugin>2.18.1</version.surefire.plugin-->
 
         <!-- use older version of checkstyle as otherwise lots of checks fail -->
         <version.checkstyle>6.8</version.checkstyle>
@@ -81,7 +81,7 @@
 
         <version.commons-io>2.4</version.commons-io>
         <version.commons-lang>2.6</version.commons-lang>
-        <version.io.undertow>1.4.11.Final</version.io.undertow>
+        <version.io.undertow>1.4.16.Final</version.io.undertow>
         <version.javax.inject.javax.inject>1</version.javax.inject.javax.inject>
         <version.junit>4.12</version.junit>
         <version.log4j>1.2.16</version.log4j>
